@@ -58,7 +58,7 @@ class Contract(object):
         'rules': 'rules'
     }
 
-    def __init__(self, r_t_h=None, con_id=None, company_name=None, exchange=None, local_symbol=None, instrument_type=None, currency=None, company_name=None, category=None, industry=None, rules=None):  # noqa: E501
+    def __init__(self, r_t_h=None, con_id=None, exchange=None, local_symbol=None, instrument_type=None, currency=None, company_name=None, category=None, industry=None, rules=None):  # noqa: E501
         """Contract - a model defined in Swagger"""  # noqa: E501
 
         self._r_t_h = None
